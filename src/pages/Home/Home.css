@@ -1,0 +1,23 @@
+.details {
+  margin: auto;
+  display: block;
+  position: relative;
+  font-size: 5vh;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left:15%; 
+  line-height: 4mm;
+  font-weight: bolder;
+}
+
+.imagePos {
+  margin: auto;
+  display: block;
+  position: relative;
+  font-size: 5vh;
+  padding-left:5%; 
+  line-height: 4mm;
+}
+.display-frame {
+  margin: 25vh 0 30vh 0;
+  height: 50%;
+}

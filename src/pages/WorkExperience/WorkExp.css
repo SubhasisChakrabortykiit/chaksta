@@ -1,0 +1,87 @@
+.details {
+    margin: auto;
+    display: block;
+    position: relative;
+    font-size: 5vh;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left:15%; 
+    line-height: 4mm;
+    font-weight: bolder;
+  }
+  .display-frame {
+    margin: 5vh 0 5vh 0;
+    height: 100%;
+  }
+
+  .stepper .MuiTypography-body1 {
+      font-family: 'Courier New', Courier, monospace;
+  }
+  .stepper .MuiTypography-body2  {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .stepper .MuiPaper-root {
+    background-color: inherit;
+  }
+
+  .stepper .pwc .MuiStepIcon-root.MuiStepIcon-active {
+    color: orange;
+  }
+
+  .stepper .pwc .MuiStepIcon-root.MuiStepIcon-completed {
+    color: orange; 
+  }
+
+  .stepper .ltts .MuiStepIcon-root.MuiStepIcon-active {
+    color: #003F72;
+  }
+
+  .stepper .ltts .MuiStepIcon-root.MuiStepIcon-completed {
+    color: #003F72; 
+  }
+
+  .stepper .MuiStepLabel-label.MuiStepLabel-active {
+      font-weight: 900;
+  }
+
+  .stepper .ltts .MuiStepLabel-label.MuiStepLabel-active {
+    color: #003F72; 
+  }
+
+  .stepper .pwc .MuiStepLabel-label.MuiStepLabel-active {
+    color: orange;
+  }
+
+  img {
+      margin-bottom: 12%;
+      display: block;
+  }
+
+  .logos {
+      margin-left: 10%;
+  }
+
+  .page-title span{
+    font-size: -webkit-xxx-large;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    z-index: 1;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .page-content span{
+    font-size: -webkit-x-large;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    z-index: 1;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }

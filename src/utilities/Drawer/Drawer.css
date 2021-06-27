@@ -1,0 +1,45 @@
+.side-nav {
+    background-color: #120035 ;
+}
+ul {
+    list-style-type: none;
+    width: inherit;
+}
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    height: 20vh;
+    color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.sections {
+    border-top: 1px solid wheat;
+}
+
+.sectionItems {
+    width: 100%;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-end;
+    padding: 5px;
+    height: 10vh;
+    /* border: 1px solid red; */
+}
+
+.sectionItems  :hover {
+    background-color:#437067 ;
+}
+.drawer-icon {
+    position: absolute;
+
+}
