@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
   max-width: inherit;
-  /* height: 100vh; */
+  /* max-height: inherit; */
 }
 .details {
     margin: auto;
     display: block;
     position: relative;
     font-size: 5vh;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--FONT-FAMILY);
     padding-left:15%; 
     line-height: 5mm;
     font-weight: bolder;
@@ -20,10 +20,10 @@
   }
 
   .stepper .MuiTypography-body1 {
-      font-family: 'Courier New', Courier, monospace;
+    font-family: var(--FONT-FAMILY);
   }
   .stepper .MuiTypography-body2  {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--FONT-FAMILY);
   }
   .stepper .MuiPaper-root {
     background-color: inherit;
@@ -74,12 +74,14 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--FONT-FAMILY);
     font-weight: bold;
     z-index: 1;
-    width: 70%;
+    width: 60%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 
   .page-content span{
@@ -87,7 +89,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--FONT-FAMILY);
     font-weight: bold;
     z-index: 1;
     width: 70%;

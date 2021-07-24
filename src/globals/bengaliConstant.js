@@ -12,7 +12,7 @@ const benConstants = {
     JOB_PROFILE:'MEAN / MERN বিকাশকারী, ডেটা ইঞ্জিনিয়ার',
     JOB_COMPANIES: 'পিডব্লিউসি ইন্ডিয়া, প্রাক্তন এল অ্যান্ড টি প্রযুক্তি পরিষেবা',
     UNIVERSITY_AND_HIGHEST_QUALIFCATION: 'বিটেক সিএসই, কেআইআইটি বিশ্ববিদ্যালয়',
-    CONTACT_INFORMATION: 'www.chaksta.com, মোবি: +91 7777777777'
+    CONTACT_INFORMATION: 'www.chaksta.com'
 }
 
 export default benConstants;

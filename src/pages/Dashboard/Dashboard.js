@@ -5,6 +5,7 @@ import SettingsIcon from '@material-ui/icons/Settings';
 import TemporaryDrawer from '../Drawer/Drawer';
 import Home from '../Home/Home';
 import WorkExp from "../WorkExperience/WorkExp";
+import Skills from "../Skills/Skills";
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function Dashboard() {
@@ -20,9 +21,10 @@ function Dashboard() {
                     {/* <Router> */}
                         <div className="App">
                             <Switch>
-                                <Route path="/" exact component={Home} />
-                                <Route path="/WorkExp" component={WorkExp} />
-                                <Route path="/TempDrawer" component={TemporaryDrawer} />
+                                <Route path="/" exact component={ Home } />
+                                <Route path="/WorkExp" component={ WorkExp } />
+                                <Route path="/TempDrawer" component={ TemporaryDrawer } />
+                                <Route path="/Skills" component={ Skills } />
                             </Switch>
                         </div>
                     {/* </Router> */}

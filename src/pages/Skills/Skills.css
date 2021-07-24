@@ -1,0 +1,30 @@
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: inherit;
+  /* max-height: inherit; */
+}
+
+  .page-title span{
+    font-size: -webkit-xxx-large;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: var(--FONT-FAMILY);
+    font-weight: bold;
+    z-index: 1;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .page-content {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .skill-items{
+    margin-bottom: 2vh;
+  }

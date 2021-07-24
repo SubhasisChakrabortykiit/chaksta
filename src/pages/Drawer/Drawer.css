@@ -1,12 +1,15 @@
 .side-nav {
-    background-color: #120035 ;
+    background-color: rgb(29, 3, 82);
+    height: 100vh;
+    width: 30vh;
+    /* opacity: 0.1; */
 }
 ul {
     list-style-type: none;
     width: inherit;
 }
 .title {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--FONT-FAMILY);
     font-weight: 600;
     height: 20vh;
     color: wheat;
@@ -24,7 +27,7 @@ ul {
 .sectionItems {
     width: 100%;
     color: wheat;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--FONT-FAMILY);
     font-weight: 500;
     font-size: 12px;
     display: flex;
@@ -47,4 +50,8 @@ ul {
 }
 .drawer-react-fragment {
     overflow-y:none;
+}
+
+a {
+    color: inherit;
 }

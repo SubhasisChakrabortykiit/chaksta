@@ -7,8 +7,8 @@ import Divider from '@material-ui/core/Divider';
 import enConstants from "../../globals/englishConstant";
 import './Drawer.css';
 import MenuIcon from '@material-ui/icons/Menu';
-import Home from '../Home/Home';
-import WorkExp from "../WorkExperience/WorkExp";
+// import Home from '../Home/Home';
+// import WorkExp from "../WorkExperience/WorkExp";
 import { Redirect, useHistory, BrowserRouter as Router, Link, Switch, Route, NavLink } from 'react-router-dom';
 const useStyles = makeStyles({
     list: {
@@ -71,11 +71,11 @@ export default function TemporaryDrawer() {
           </ListItem>
         ))}
       </List> */}
-            <div className="title">
+            {/* <div className="title">
                 <center> {GLOBALS.LEGAL_NAME} </center>
             </div>
 
-            <Divider />
+            <Divider /> */}
             <div className="sections">
                 <ul>
                     {itemList}
@@ -91,7 +91,7 @@ export default function TemporaryDrawer() {
                 <React.Fragment key={anchor} > 
                 <div className="drawer-react-fragment">
                     <Button onClick={toggleDrawer(anchor, true)}><MenuIcon /> </Button>
-                    <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
+                    <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)} >
                         {list(anchor)}
                     </Drawer>
                     </div>

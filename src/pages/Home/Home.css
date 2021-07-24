@@ -3,7 +3,7 @@
   display: block;
   position: relative;
   font-size: 5vh;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(---FONT-FAMILY);
   padding-left:15%; 
   line-height: 4mm;
   font-weight: bolder;

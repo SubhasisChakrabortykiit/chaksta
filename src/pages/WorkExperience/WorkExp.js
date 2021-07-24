@@ -70,8 +70,7 @@ export default function WorkExp() {
         <Container>
             <div className="page-title">
                 <Typography>
-                    <span>Work Experience</span><br />
-                    {/* <span style={{ fontSize: '1em' }}> {label.startMonthYear} - {label.endMonthYear} </span> */}
+                    <span style={{ fontSize: '2.5em' }}>{ GLOBALS.PAGE_TITLES.PAGE_2 }</span><br />
                 </Typography>
             </div>
             <div className="page-content">
@@ -127,8 +126,8 @@ export default function WorkExp() {
                     </div>
                 </Col>
                 <Col className="logos">
-                    <img src={pwc_logo} alt='mainImages' className="imageClass" height='30%' width='30%' style={{ margin:'auto', paddingTop:'5%'}} />
-                    <img src={ltts_logo} alt='mainImages' className="imageClass" height='30%' width='30%' style={{ margin:'auto', paddingTop:'5%'}} />
+                    <img src={pwc_logo} alt='mainImages' className="imageClass" height='20%' width='20%' style={{ margin:'auto', paddingTop:'5%'}} />
+                    <img src={ltts_logo} alt='mainImages' className="imageClass" height='20%' width='20%' style={{ margin:'auto', paddingTop:'5%'}} />
                 </Col>
             </Row>
         </Container>

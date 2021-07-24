@@ -1,3 +1,6 @@
+:root {
+    --FONT-FAMILY: 'Ink Free','Copperplate Gothic Light','Courier New' , monospace;
+  }
 .container {
     margin: 0;
     padding: 0;
@@ -7,7 +10,7 @@
 
 .display-view {
     max-height: 100vh;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     float: right;
     width: 100%;
 }
