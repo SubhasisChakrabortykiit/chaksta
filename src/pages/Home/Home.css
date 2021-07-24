@@ -16,8 +16,14 @@
   font-size: 5vh;
   padding-left:5%; 
   line-height: 4mm;
+   max-width: 100%;
+  height: auto;
 }
 .display-frame {
-  margin: 25vh 0 30vh 0;
+  margin: 50vh 0 30vh 0;
   height: 50%;
 }
+/* .display-frame .row{
+  margin: 25vh 0 30vh 0;
+  height: 50%;
+} */

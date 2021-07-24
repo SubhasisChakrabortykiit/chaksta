@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './Home.css';
-import image from "../../images/demo2.png";
+import image from "../../images/subhasis.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 import enConstants from "../../globals/englishConstant";
 import benConstants from "../../globals/bengaliConstant";
@@ -12,15 +12,14 @@ function Home() {
       <Row className="display-frame">
       <Col sm={{ size: 'auto', offset: 1 }} className="details">
         <div>
-          <span style={{ fontSize: '1em' }}> {GLOBALS.LEGAL_NAME} </span><br /><br />
+          <span style={{ fontSize: '0.9em' }}> {GLOBALS.LEGAL_NAME} </span><br /><br />
           <span style={{ fontSize: '0.5em' }}> {GLOBALS.JOB_PROFILE} </span><br />
           <span style={{ fontSize: '0.4em' }}> {GLOBALS.JOB_COMPANIES} </span><br />
           <span style={{ fontSize: '0.4em' }}> {GLOBALS.UNIVERSITY_AND_HIGHEST_QUALIFCATION} </span><br />
           <span style={{ fontSize: '0.4em' }}> {GLOBALS.CONTACT_INFORMATION} </span>
         </div>
       </Col>
-      <Col sm={{ size: 'auto', offset: 1 }} className="imagePos"><img src={image} alt='mainImages' height='80%' width='70%' /></Col>
-      {/* height='400vh' */}
+      <Col sm={{ size: 'auto', offset: 1 }} className="imagePos"><img src={image} alt='mainImages' height='80%' width='70%' style={{ margin:'auto', paddingTop:'5%' }}/></Col>
       </Row>
     </Container>
   );

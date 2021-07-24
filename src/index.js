@@ -13,7 +13,6 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-
     <Dashboard />
   </React.StrictMode>,
   document.getElementById('root')

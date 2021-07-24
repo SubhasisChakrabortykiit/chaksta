@@ -3,14 +3,13 @@ import { StayCurrentLandscapeTwoTone } from "@material-ui/icons";
 const enConstants = {
     LEGAL_NAME: "Subhasis Chakraborty",
     NAVIGATION_ITEMS: [
-        { 'title': 'Work Experience', 'logo_path': 'sss' },
-        { 'title': 'Projects', 'logo_path': 'sss' },
-        { 'title': 'Technical Skills', 'logo_path': 'sss' },
-        { 'title': 'Certificates', 'logo_path': 'sss' },
-        { 'title': 'Interests', 'logo_path': 'sss' },
-        { 'title': 'Dream', 'logo_path': 'sss' },
-        { 'title': 'Quotes', 'logo_path': 'sss' },
-        { 'title': 'Contact', 'logo_path': 'sss' }
+        { 'title': 'Card', 'logo_path': 'sss', 'path' : '/', 'component' : 'Home' },
+        { 'title': 'Work Experience', 'logo_path': 'sss', 'path': '/WorkExp', 'component':'WorkExp' },
+        { 'title': 'Technical Skills', 'logo_path': 'sss', 'path': '/' },
+        { 'title': 'Certificates', 'logo_path': 'sss', 'path': '/'  },
+        { 'title': 'Interests', 'logo_path': 'sss', 'path': '/'  },
+        { 'title': 'Quotes', 'logo_path': 'sss', 'path': '/'  },
+        { 'title': 'Contact', 'logo_path': 'sss', 'path': '/'  }
     ],
     JOB_PROFILE: 'MEAN/MERN Developer, Data Engineer',
     JOB_COMPANIES: 'PwC India, Ex L&T Technology Services',

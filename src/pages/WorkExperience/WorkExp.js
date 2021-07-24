@@ -39,8 +39,6 @@ function getSteps() {
 function monthDiff() {
     let current_date = new Date();
     let doj = new Date(2018, 9, 19);
-    console.log('date now is', current_date);
-    console.log('date oj is', doj);
     var months;
     months = (current_date.getFullYear() - doj.getFullYear()) * 12;
     months -= doj.getMonth();
@@ -48,8 +46,6 @@ function monthDiff() {
     let totalMonth = months <= 0 ? 0 : months; 
     let years = Math.floor(totalMonth/12);
     let monthExp = totalMonth - (years * 12);
-    //console.log('date odddddddj is', totalMonth/12);
-    // return months <= 0 ? 0 : months;
     return years + ' years and ' + monthExp + '+ months';
 }
 
@@ -83,7 +79,7 @@ export default function WorkExp() {
                     <span> {monthDiff()} { GLOBALS.WORK_EXPIRIENCE_PHRASE } </span><br />
                 </Typography>
             </div>
-            <Row className="display-frame">
+            <Row className="display-frame-wxp">
                 <Col sm={{ size: 'auto', offset: 1 }} className="details">
                     <div className={classes.root} className="stepper">
                         <Stepper activeStep={activeStep} orientation="vertical">
@@ -130,9 +126,9 @@ export default function WorkExp() {
                         )}
                     </div>
                 </Col>
-                <Col sm={{ size: 'auto', offset: 1 }} className="logos">
-                    <img src={pwc_logo} alt='mainImages' height='35%' width='35%' />
-                    <img src={ltts_logo} alt='mainImages' height='35%' width='35%' />
+                <Col className="logos">
+                    <img src={pwc_logo} alt='mainImages' className="imageClass" height='30%' width='30%' style={{ margin:'auto', paddingTop:'5%'}} />
+                    <img src={ltts_logo} alt='mainImages' className="imageClass" height='30%' width='30%' style={{ margin:'auto', paddingTop:'5%'}} />
                 </Col>
             </Row>
         </Container>

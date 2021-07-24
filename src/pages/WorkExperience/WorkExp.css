@@ -1,3 +1,9 @@
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: inherit;
+  /* height: 100vh; */
+}
 .details {
     margin: auto;
     display: block;
@@ -5,10 +11,10 @@
     font-size: 5vh;
     font-family: 'Courier New', Courier, monospace;
     padding-left:15%; 
-    line-height: 4mm;
+    line-height: 5mm;
     font-weight: bolder;
   }
-  .display-frame {
+  .display-frame-wxp {
     margin: 5vh 0 5vh 0;
     height: 100%;
   }
@@ -56,10 +62,13 @@
       display: block;
   }
 
-  .logos {
+  /* .logos {
       margin-left: 10%;
+  } */
+  .imageClass{
+    max-width: 100%;
+    height: auto;
   }
-
   .page-title span{
     font-size: -webkit-xxx-large;
     align-items: center;

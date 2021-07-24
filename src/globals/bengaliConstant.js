@@ -6,7 +6,6 @@ const benConstants = {
         {'title':'প্রযুক্তিগত দক্ষতা','logo_path':'sss'},
         {'title':'শংসাপত্র','logo_path':'sss'},
         {'title':'আগ্রহ','logo_path':'sss'},
-        {'title':'স্বপ্ন','logo_path':'sss'},
         {'title':'উদ্ধৃতি','logo_path':'sss'},
         {'title':'যোগাযোগ','logo_path':'sss'}
     ],

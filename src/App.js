@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// //entry point -> index.js -> dashboard
+// import logo from './logo.svg';
+// import './App.css';
+// import Home from './pages/Home/Home';
+// import WorkExp  from './pages/WorkExperience/WorkExp';
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// function App() {
+//   return (
+//     <Router>
+//     <div className="App">
+//       <Switch>
+//         <Route path="/" exact component={ Home } />
+//         <Route path="/WorkExp" component={ WorkExp } />
+//      </Switch>
+//     </div>
+//     </Router>
+//   );
+// }
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+// export default App;

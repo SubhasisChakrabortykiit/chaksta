@@ -7,6 +7,9 @@ import Divider from '@material-ui/core/Divider';
 import enConstants from "../../globals/englishConstant";
 import './Drawer.css';
 import MenuIcon from '@material-ui/icons/Menu';
+import Home from '../Home/Home';
+import WorkExp from "../WorkExperience/WorkExp";
+import { Redirect, useHistory, BrowserRouter as Router, Link, Switch, Route, NavLink } from 'react-router-dom';
 const useStyles = makeStyles({
     list: {
         width: 250,
@@ -17,14 +20,22 @@ const useStyles = makeStyles({
 });
 
 export default function TemporaryDrawer() {
+    let history = useHistory();
     let GLOBALS = enConstants;
     let items = GLOBALS.NAVIGATION_ITEMS;
     let itemList = [];
     items.forEach((item, index) => {
-        itemList.push(<li className="sectionItems">
-            <span className="icon"></span>
-            <span>{item.title}</span>
-        </li>)
+        itemList.push( <li key={index} className="sectionItems">
+            <span className="icon"></span>       
+            <NavLink
+                // className="navbar-item"
+                // activeClassName="is-active"
+                to={item.path} 
+                exact
+            >
+                <span>{item.title}</span>
+            </NavLink>
+        </li> )
     });
     const classes = useStyles();
     const [state, setState] = React.useState({
@@ -77,11 +88,13 @@ export default function TemporaryDrawer() {
         <div className="drawer-icon">
             {/* ['left', 'right', 'top', 'bottom'] */}
             {['left'].map((anchor) => (
-                <React.Fragment key={anchor} style="overflow-y:none">
+                <React.Fragment key={anchor} > 
+                <div className="drawer-react-fragment">
                     <Button onClick={toggleDrawer(anchor, true)}><MenuIcon /> </Button>
                     <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
                         {list(anchor)}
                     </Drawer>
+                    </div>
                 </React.Fragment>
             ))}
         </div>

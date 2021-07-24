@@ -37,9 +37,14 @@ ul {
 }
 
 .sectionItems  :hover {
-    background-color:#437067 ;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
 }
 .drawer-icon {
     position: absolute;
 
+}
+.drawer-react-fragment {
+    overflow-y:none;
 }
