@@ -20,7 +20,7 @@ function Dashboard() {
                     {/* <Router> */}
                         <div className="App">
                             <Switch>
-                                <Route path="/" component={Home} />
+                                <Route path="/" exact component={Home} />
                                 <Route path="/WorkExp" component={WorkExp} />
                                 <Route path="/TempDrawer" component={TemporaryDrawer} />
                             </Switch>
