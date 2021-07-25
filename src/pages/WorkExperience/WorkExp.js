@@ -75,7 +75,7 @@ export default function WorkExp() {
             </div>
             <div className="page-content">
                 <Typography>
-                    <span> {monthDiff()} { GLOBALS.WORK_EXPIRIENCE_PHRASE } </span><br />
+                    <span className='span-in-page-content'> {monthDiff()} { GLOBALS.WORK_EXPIRIENCE_PHRASE } </span><br />
                 </Typography>
             </div>
             <Row className="display-frame-wxp">

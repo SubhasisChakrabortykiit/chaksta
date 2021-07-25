@@ -41,31 +41,31 @@ export default function Skills() {
     let items_1 = GLOBALS.SKILLS.SKILL_SET_1;
     let itemList_1 = [];
     items_1.forEach((item, index) => {
-        itemList_1.push( <div className='skill-items'>
+        itemList_1.push( <div key={index} className='skill-items'>
             <Typography>
                 <span style={{ fontSize: '1em' }}>{ item.SKILL }</span>
             </Typography>
-            <BorderLinearProgress variant="determinate" value={ item.RATE } />
+            <BorderLinearProgress variant="determinate" value={ parseInt(item.RATE) } />
         </div>)
     });
     let items_2 = GLOBALS.SKILLS.SKILL_SET_2;
     let itemList_2 = [];
     items_2.forEach((item, index) => {
-        itemList_2.push( <div className='skill-items'>
+        itemList_2.push( <div key={index} className='skill-items'>
             <Typography>
                 <span style={{ fontSize: '1em' }}>{ item.SKILL }</span>
             </Typography>
-            <BorderLinearProgress variant="determinate" value={ item.RATE } />
+            <BorderLinearProgress variant="determinate" value={ parseInt(item.RATE) } />
         </div>)
     });
     let items_3 = GLOBALS.SKILLS.SKILL_SET_3;
     let itemList_3 = [];
     items_3.forEach((item, index) => {
-        itemList_3.push( <div className='skill-items'>
+        itemList_3.push( <div  key={index} className='skill-items'>
             <Typography>
                 <span style={{ fontSize: '1em' }}>{ item.SKILL }</span>
             </Typography>
-            <BorderLinearProgress variant="determinate" value={ item.RATE } />
+            <BorderLinearProgress variant="determinate" value={ parseInt(item.RATE) } />
         </div>)
     });
 

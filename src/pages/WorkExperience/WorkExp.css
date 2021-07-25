@@ -84,7 +84,7 @@
     margin-bottom: 2%;
   }
 
-  .page-content span{
+  .page-content .span-in-page-content{
     font-size: -webkit-x-large;
     align-items: center;
     display: flex;

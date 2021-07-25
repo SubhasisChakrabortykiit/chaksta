@@ -6,6 +6,7 @@ import TemporaryDrawer from '../Drawer/Drawer';
 import Home from '../Home/Home';
 import WorkExp from "../WorkExperience/WorkExp";
 import Skills from "../Skills/Skills";
+import Projects from '../Projects/Projects';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function Dashboard() {
@@ -25,6 +26,7 @@ function Dashboard() {
                                 <Route path="/WorkExp" component={ WorkExp } />
                                 <Route path="/TempDrawer" component={ TemporaryDrawer } />
                                 <Route path="/Skills" component={ Skills } />
+                                <Route path="/Projects" component={ Projects } />
                             </Switch>
                         </div>
                     {/* </Router> */}
