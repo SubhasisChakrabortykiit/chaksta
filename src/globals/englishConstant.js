@@ -7,15 +7,16 @@ const enConstants = {
         { 'title': 'work()', 'logo_path': 'sss', 'path': '/WorkExp', 'component': 'WorkExp' },
         { 'title': 'skills()', 'logo_path': 'sss', 'path': '/Skills', 'component': 'Skills' },
         { 'title': 'projects_achievements()', 'logo_path': 'sss', 'path': '/Projects', 'component': 'Projects' },
-        { 'title': 'gallery()', 'logo_path': 'sss', 'path': '/' },
-        { 'title': 'quotes()', 'logo_path': 'sss', 'path': '/' },
-        { 'title': 'contact()', 'logo_path': 'sss', 'path': '/' }
+        // { 'title': 'gallery()', 'logo_path': 'sss', 'path': '/' },
+        // { 'title': 'quotes()', 'logo_path': 'sss', 'path': '/' },
+        { 'title': 'contact()', 'logo_path': 'sss', 'path': '/Contacts',  'component': 'Contacts' }
     ],
     PAGE_TITLES: {
         PAGE_1: '',
         PAGE_2: 'Work Experience',
         PAGE_3: 'Skills',
-        PAGE_4: 'Projects'
+        PAGE_4: 'Projects',
+        PAGE_6: 'Contacts'
     },
     JOB_PROFILE: 'MEAN/MERN Developer, Data Engineer',
     JOB_COMPANIES: 'PwC India, Ex L&T Technology Services',
@@ -155,6 +156,39 @@ const enConstants = {
             PROJECT_ROLE: 'Worked as a developer, building the project from scratch. Creating all documents, front end, back end, DB schemas, connecting all services',
             PROJECT_TOOLS_USED: ' Python, OpenCV, IOT, Arduino programming, Visual Studio Code, PyCharm, Arduino'
         }
+    ],
+    CONTACTS : [
+        {
+            NAME : 'LinkedIn',
+            LINK : '',
+            ICON : 'linkedIn',
+            ALT_TEXT: 'LinkedIn'
+        },
+        {
+            NAME : 'Facebook',
+            LINK : '',
+            ICON : 'fb',
+            ALT_TEXT: 'Facebook'
+        },
+        {
+            NAME : 'Gmail',
+            LINK : '',
+            ICON : 'gmail',
+            ALT_TEXT: 'Gmail'
+        },
+        {
+            NAME : 'Git',
+            LINK : '',
+            ICON : 'git',
+            ALT_TEXT: 'GitHub'
+        },
+        {
+            NAME : 'Insta',
+            LINK : '',
+            ICON : 'insta',
+            ALT_TEXT: 'Insta'
+        }
+    
     ]
 }
 

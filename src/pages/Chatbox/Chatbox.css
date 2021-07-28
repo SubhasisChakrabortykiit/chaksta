@@ -1,0 +1,71 @@
+.chatbox-main{
+    height: 50%;
+    width:75%
+  }
+ 
+  .MuiSnackbar-root {
+    left: auto !important;
+  }
+ 
+  .MuiSnackbarContent-root {
+    background-color: inherit !important;;
+  }
+ 
+  .MuiPaper-elevation6 {
+    box-shadow: none !important;
+  }
+ 
+  .MuiCardHeader-action {
+    width: -webkit-fill-available;
+  }
+  .appbar {
+    background-color: midnightblue !important;
+    font-family: var(--FONT-FAMILY) !important;
+  }
+ 
+  .appbar-title {
+   font-size: -webkit-x-large !important;
+   font-family: var(--FONT-FAMILY) !important;
+  }
+ 
+  .appbar .MuiToolbar-regular { 
+   max-height: 2% !important;
+   min-height: 1% !important;
+ }
+ 
+  .MuiToolbar-root .MuiToolbar-regular .MuiToolbar-gutters {
+   width: 100% !important;
+ }
+
+ .toolbar {
+     width: 100% !important;
+     justify-content: space-between !important;
+ }
+ .MuiCardHeader-root {
+    padding: 0% !important;
+ }
+
+ .appbar-footer {
+    background-color: whitesmoke !important;
+    font-family: var(--FONT-FAMILY) !important;
+    border-top: 1px solid midnightblue;
+  }
+  .toolbar-footer {
+    width: 100% !important;
+    justify-content: space-between !important;
+}
+.appbar-footer .MuiToolbar-regular { 
+    max-height: 1% !important;
+  }
+.input-data {
+    border-radius: 50px;
+    padding-top: 2%;
+    border: 1px solid midnightblue;
+    padding-left: 4%;
+    font-family: var(--FONT-FAMILY) !important;
+    font-size: 0.5em;;
+}
+
+.card-content {
+    min-height: 14em;
+}

@@ -1,0 +1,121 @@
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: inherit;
+  font-family: var(--FONT-FAMILY) !important;
+  max-height: inherit;
+}
+
+  .page-title span{
+    font-size: -webkit-xxx-large;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: var(--FONT-FAMILY);
+    font-weight: bold;
+    z-index: 1;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .page-content {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+ .main-box {
+   margin-top: 10%;
+   text-align: center;
+   /* display: block; */
+ }
+
+ .box-items {
+  width: 8% !important;
+  height: 8% !important;
+  display: inline-block !important;
+  vertical-align: middle;
+  margin-left: 5%;
+  margin-right: 5%;
+ }
+
+ .fab-button {
+  z-index: 1;
+  position: fixed !important;
+  bottom: 4%;
+  right: 4% !important;
+ }
+
+ .chatbox-main{
+  height: 50%;
+  width:75%
+}
+
+.MuiSnackbar-root {
+  left: auto !important;
+}
+
+.MuiSnackbarContent-root {
+  background-color: inherit !important;;
+}
+
+.MuiPaper-elevation6 {
+  box-shadow: none !important;
+}
+
+.MuiCardHeader-action {
+  width: -webkit-fill-available;
+}
+.appbar {
+  background-color: midnightblue !important;
+  font-family: var(--FONT-FAMILY) !important;
+}
+
+.appbar-title {
+ font-size: -webkit-x-large !important;
+ font-family: var(--FONT-FAMILY) !important;
+}
+
+.appbar .MuiToolbar-regular { 
+ max-height: 2% !important;
+ min-height: 1% !important;
+}
+
+.MuiToolbar-root .MuiToolbar-regular .MuiToolbar-gutters {
+ width: 100% !important;
+}
+
+.toolbar {
+   width: 100% !important;
+   justify-content: space-between !important;
+}
+.MuiCardHeader-root {
+  padding: 0% !important;
+}
+
+.appbar-footer {
+  background-color: whitesmoke !important;
+  font-family: var(--FONT-FAMILY) !important;
+  border-top: 1px solid midnightblue;
+}
+.toolbar-footer {
+  width: 100% !important;
+  justify-content: space-between !important;
+}
+.appbar-footer .MuiToolbar-regular { 
+  max-height: 1% !important;
+}
+.input-data {
+  border-radius: 50px;
+  padding-top: 2%;
+  border: 1px solid midnightblue;
+  padding-left: 4%;
+  font-family: var(--FONT-FAMILY) !important;
+  font-size: 0.5em;;
+}
+
+.card-content {
+  min-height: 14em;
+}

@@ -1,17 +1,12 @@
 import React from 'react';
-import { makeStyles, withStyles } from '@material-ui/core/styles';
-import { Container, Row, Col } from "react-bootstrap";
+import { makeStyles } from '@material-ui/core/styles';
+import { Container } from "react-bootstrap";
 import './Projects.css';
 import enConstants from "../../globals/englishConstant";
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import LinearProgress from '@material-ui/core/LinearProgress';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import { color, display } from '@material-ui/system';
 import { grey } from '@material-ui/core/colors';
 import Chip from '@material-ui/core/Chip';
 
