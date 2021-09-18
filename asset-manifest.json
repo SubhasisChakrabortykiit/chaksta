@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.222038cd.chunk.css",
-    "main.js": "/static/js/main.682ebc06.chunk.js",
-    "main.js.map": "/static/js/main.682ebc06.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.db353c3b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.db353c3b.js.map",
+    "main.css": "/static/css/main.d6119b4a.chunk.css",
+    "main.js": "/static/js/main.9bb4d9da.chunk.js",
+    "main.js.map": "/static/js/main.9bb4d9da.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4f2f2d62.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4f2f2d62.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
-    "static/js/2.0c97d11e.chunk.js": "/static/js/2.0c97d11e.chunk.js",
-    "static/js/2.0c97d11e.chunk.js.map": "/static/js/2.0c97d11e.chunk.js.map",
-    "static/js/3.0d96cf80.chunk.js": "/static/js/3.0d96cf80.chunk.js",
-    "static/js/3.0d96cf80.chunk.js.map": "/static/js/3.0d96cf80.chunk.js.map",
+    "static/js/2.ac9d5af5.chunk.js": "/static/js/2.ac9d5af5.chunk.js",
+    "static/js/2.ac9d5af5.chunk.js.map": "/static/js/2.ac9d5af5.chunk.js.map",
+    "static/js/3.c3dffd04.chunk.js": "/static/js/3.c3dffd04.chunk.js",
+    "static/js/3.c3dffd04.chunk.js.map": "/static/js/3.c3dffd04.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.222038cd.chunk.css.map": "/static/css/main.222038cd.chunk.css.map",
-    "static/js/2.0c97d11e.chunk.js.LICENSE.txt": "/static/js/2.0c97d11e.chunk.js.LICENSE.txt",
+    "static/css/main.d6119b4a.chunk.css.map": "/static/css/main.d6119b4a.chunk.css.map",
+    "static/js/2.ac9d5af5.chunk.js.LICENSE.txt": "/static/js/2.ac9d5af5.chunk.js.LICENSE.txt",
     "static/media/fb.f0391d69.svg": "/static/media/fb.f0391d69.svg",
     "static/media/git.23ea2787.svg": "/static/media/git.23ea2787.svg",
     "static/media/gmail.456e473a.svg": "/static/media/gmail.456e473a.svg",
@@ -24,10 +24,10 @@
     "static/media/subhasis.99c0f263.jpg": "/static/media/subhasis.99c0f263.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.db353c3b.js",
+    "static/js/runtime-main.4f2f2d62.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.0c97d11e.chunk.js",
-    "static/css/main.222038cd.chunk.css",
-    "static/js/main.682ebc06.chunk.js"
+    "static/js/2.ac9d5af5.chunk.js",
+    "static/css/main.d6119b4a.chunk.css",
+    "static/js/main.9bb4d9da.chunk.js"
   ]
 }
