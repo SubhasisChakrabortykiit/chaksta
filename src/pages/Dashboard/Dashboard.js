@@ -17,9 +17,9 @@ function Dashboard() {
             <Router>
                 <TemporaryDrawer />
                 <div className="display-view">
-                    <Fab size="small" style={{ float: 'right', marginRight: '5%', marginTop: '2%' }}>
+                    {/* <Fab size="small" style={{ float: 'right', marginRight: '5%', marginTop: '2%' }}>
                         <SettingsIcon />
-                    </Fab>
+                    </Fab> */}
                     {/* <Router> */}
                         <div className="App">
                             <Switch>

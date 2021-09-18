@@ -71,7 +71,7 @@ export default function Contacts(props) {
                     <a target="_blank" href='https://www.instagram.com/such_adventures/' ><Avatar alt='insta' src={insta} className='box-items' /></a>
                 </div>
             </div>
-            <Fab size="large" className='fab-button'>
+            {/* <Fab size="large" className='fab-button'>
                 <HeadsetMicIcon onClick={handleClick} />
             </Fab>
             <Snackbar
@@ -128,7 +128,7 @@ export default function Contacts(props) {
                 />
             </Card>
                 }
-            />
+            /> */}
 
         </Container>
     );
