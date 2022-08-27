@@ -12,6 +12,7 @@ import './WorkExp.css';
 import enConstants from "../../globals/englishConstant";
 import ltts_logo from "../../images/ltts_logo.png";
 import pwc_logo from "../../images/pwc_logo.png";
+import sap_logo from "../../images/sap_logo.png";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -126,8 +127,9 @@ export default function WorkExp() {
                     </div>
                 </Col>
                 <Col className="logos">
-                    <img src={pwc_logo} alt='mainImages' className="imageClass" height='20%' width='20%' style={{ margin:'auto', paddingTop:'5%'}} />
-                    <img src={ltts_logo} alt='mainImages' className="imageClass" height='20%' width='20%' style={{ margin:'auto', paddingTop:'5%'}} />
+                    <img src={sap_logo} alt='mainImages' className="imageClass" height='10%' width='10%' style={{ margin:'auto', paddingTop:'5%'}} />
+                    <img src={pwc_logo} alt='mainImages' className="imageClass" height='10%' width='10%' style={{ margin:'auto', paddingTop:'5%'}} />
+                    <img src={ltts_logo} alt='mainImages' className="imageClass" height='10%' width='10%' style={{ margin:'auto', paddingTop:'5%'}} />
                 </Col>
             </Row>
         </Container>

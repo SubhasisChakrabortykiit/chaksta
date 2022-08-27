@@ -45,7 +45,7 @@ export default function Skills() {
             <Typography>
                 <span style={{ fontSize: '1em' }}>{ item.SKILL }</span>
             </Typography>
-            <BorderLinearProgress variant="determinate" value={ parseInt(item.RATE) } />
+           {/* <BorderLinearProgress variant="determinate" value={ parseInt(item.RATE) } /> */}
         </div>)
     });
     let items_2 = GLOBALS.SKILLS.SKILL_SET_2;
@@ -55,7 +55,7 @@ export default function Skills() {
             <Typography>
                 <span style={{ fontSize: '1em' }}>{ item.SKILL }</span>
             </Typography>
-            <BorderLinearProgress variant="determinate" value={ parseInt(item.RATE) } />
+            {/* <BorderLinearProgress variant="determinate" value={ parseInt(item.RATE) } /> */}
         </div>)
     });
     let items_3 = GLOBALS.SKILLS.SKILL_SET_3;
@@ -65,7 +65,7 @@ export default function Skills() {
             <Typography>
                 <span style={{ fontSize: '1em' }}>{ item.SKILL }</span>
             </Typography>
-            <BorderLinearProgress variant="determinate" value={ parseInt(item.RATE) } />
+           {/* <BorderLinearProgress variant="determinate" value={ parseInt(item.RATE) } /> */}
         </div>)
     });
 

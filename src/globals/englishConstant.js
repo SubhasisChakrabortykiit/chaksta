@@ -18,16 +18,24 @@ const enConstants = {
         PAGE_4: 'Projects',
         PAGE_6: 'Contacts'
     },
-    JOB_PROFILE: 'MEAN/MERN Developer, Data Engineer',
-    JOB_COMPANIES: 'PwC India, Ex L&T Technology Services',
+    JOB_PROFILE: 'Full stack Developer',
+    JOB_COMPANIES: 'SAP Labs, Ex PwC India, L&T Technology Services',
     UNIVERSITY_AND_HIGHEST_QUALIFCATION: 'B.Tech CSE, KIIT University',
     CONTACT_INFORMATION: 'www.chaksta.com',
     WORK_EXPERIENCE: [
         {
+            company: 'sap',
+            fullName: 'SAP Labs',
+            startMonthYear: 'Febuary 2022',
+            endMonthYear: 'Present',
+            profile: 'Developer',
+            location: 'Bengaluru, IN'
+        },
+        {
             company: 'pwc',
             fullName: 'PriceWaterhouse Coopers Services Ltd.',
             startMonthYear: 'Febuary 2021',
-            endMonthYear: 'Present',
+            endMonthYear: 'February 2022',
             profile: 'MEAN/MERN Stack Developer, Data Engineer',
             location: 'Kolkata, IN'
         },
@@ -40,7 +48,7 @@ const enConstants = {
             location: 'Mysore, IN'
         }
     ],
-    WORK_EXPIRIENCE_PHRASE: 'of experience as a MEAN/MERN Stack developer and Data engineer in LTTS and PwC with expertise in Angular 2+, NodeJs,Salesforce Lightning, TIBCO data virtulization, ADF projects with quality code measures and following AGILE methodology',
+    WORK_EXPIRIENCE_PHRASE: 'of experience as a MEAN/MERN Stack developer and Data engineer in SAP Labs, PwC India and LTTS with expertise in Angular 2+, NodeJs, Golang, Salesforce Lightning, TIBCO data virtulization, ADF projects with quality code measures and following AGILE methodology',
     SKILLS: {
         SKILL_SET_1: [ // RATE OUT OF 100
             {
@@ -56,15 +64,15 @@ const enConstants = {
                 RATE: '80'
             },
             {
-                SKILL: 'React Js',
-                RATE: '40'
+                SKILL: 'GoLang',
+                RATE: '50'
             },
             {
-                SKILL: 'Ionic / Cordova',
+                SKILL: 'Visual Studio Code Extension',
                 RATE: '80'
             },
             {
-                SKILL: 'Veu Js,Polymer Js',
+                SKILL: 'React Js, Veu Js,Polymer Js',
                 RATE: '60'
             }
         ],
@@ -79,6 +87,10 @@ const enConstants = {
             },
             {
                 SKILL: 'Git/ Github / GitLab',
+                RATE: '80'
+            },
+            {
+                SKILL: 'Ionic / Cordova',
                 RATE: '80'
             },
             {
@@ -111,12 +123,23 @@ const enConstants = {
                 SKILL: 'Azure Data Factory/ Basics of Python/ OpenCV / IOT / Arduino Programming / JSP/ Servlets',
                 RATE: '80'
             },
+            {
+                SKILL: 'Golang CLI integration,Cobra, Viper',
+                RATE: '70'
+            },
         ]
     },
     PROJECTS : [
         {
+            PROJECT_NAME: 'Central Business Configuration - Authoring Module',
+            PROJECT_DATE: 'Feb 2022 to Present',
+            PROJECT_DESCRIPTION: 'Restructure the existing nodejs authoring module to golang with microservices architecture',
+            PROJECT_ROLE: 'Developed a visual studio extension, added git source controls from scratch, restructuring existing node js module to golang with microservices, added features like cli using cobra integration and rest apis',
+            PROJECT_TOOLS_USED: 'Visual Studio Code Extension development, Git Apis Golang, Cobra, Viper, NodeJS, Typescript'
+        },
+        {
             PROJECT_NAME: 'A portal for integrated data management',
-            PROJECT_DATE: 'Feb 2021 to Present',
+            PROJECT_DATE: 'Feb 2021 to Feb 2022',
             PROJECT_DESCRIPTION: 'Setting up an integrated portal for data management with data from various resources',
             PROJECT_ROLE: 'Working as a data engineer, gathering, layering, and modelling data from various resource, creating and exposing web services to be called from User portal',
             PROJECT_TOOLS_USED: 'TIBCO Studio, Azure Data Factory'
