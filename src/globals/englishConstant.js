@@ -124,7 +124,7 @@ const enConstants = {
                 RATE: '80'
             },
             {
-                SKILL: 'Golang CLI integration,Cobra, Viper',
+                SKILL: 'Golang CLI integrations,Cobra, Viper',
                 RATE: '70'
             },
         ]
