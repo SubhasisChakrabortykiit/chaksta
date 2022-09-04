@@ -8,6 +8,7 @@ import WorkExp from "../WorkExperience/WorkExp";
 import Skills from "../Skills/Skills";
 import Projects from '../Projects/Projects';
 import Contacts from '../Contact/Contacts';
+import PageNotFound from '../PageNotFound/PageNotFound';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function Dashboard() {
@@ -24,11 +25,12 @@ function Dashboard() {
                         <div className="App">
                             <Switch>
                                 <Route path="/" exact component={ Home } />
-                                <Route path="/WorkExp" component={ WorkExp } />
-                                <Route path="/TempDrawer" component={ TemporaryDrawer } />
-                                <Route path="/Skills" component={ Skills } />
-                                <Route path="/Projects" component={ Projects } />
-                                <Route path="/Contacts" component={ Contacts } />
+                                <Route path="/WorkExp" exact component={ WorkExp } />
+                                <Route path="/TempDrawer" exact component={ TemporaryDrawer } />
+                                <Route path="/Skills" exact component={ Skills } />
+                                <Route path="/Projects" exact component={ Projects } />
+                                <Route path="/Contacts" exact component={ Contacts } />
+                                <Route path="*" component={ PageNotFound } />
                             </Switch>
                         </div>
                     {/* </Router> */}
