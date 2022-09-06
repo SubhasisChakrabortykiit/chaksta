@@ -10,12 +10,12 @@ import Projects from '../Projects/Projects';
 import Contacts from '../Contact/Contacts';
 import PageNotFound from '../PageNotFound/PageNotFound';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route,HashRouter } from 'react-router-dom';
 function Dashboard() {
     return (
         <div className="Dashboard">
             <Container>
-            <Router>
+            <HashRouter>
                 <TemporaryDrawer />
                 <div className="display-view">
                     {/* <Fab size="small" style={{ float: 'right', marginRight: '5%', marginTop: '2%' }}>
@@ -35,7 +35,7 @@ function Dashboard() {
                         </div>
                     {/* </Router> */}
                 </div>
-                </Router>
+                </HashRouter>
             </Container>
         </div>
     );
