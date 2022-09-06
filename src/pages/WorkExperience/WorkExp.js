@@ -13,6 +13,7 @@ import enConstants from "../../globals/englishConstant";
 import ltts_logo from "../../images/ltts_logo.png";
 import pwc_logo from "../../images/pwc_logo.png";
 import sap_logo from "../../images/sap_logo.png";
+import {isMobile} from 'react-device-detect';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -66,7 +67,6 @@ export default function WorkExp() {
     const handleReset = () => {
         setActiveStep(0);
     };
-
     return (
         <Container>
             <div className="page-title">
@@ -127,9 +127,19 @@ export default function WorkExp() {
                     </div>
                 </Col>
                 <Col className="logos">
-                    <img src={sap_logo} alt='mainImages' className="imageClass" height='10%' width='10%' style={{ margin:'auto', paddingTop:'5%'}} />
-                    <img src={pwc_logo} alt='mainImages' className="imageClass" height='10%' width='10%' style={{ margin:'auto', paddingTop:'5%'}} />
-                    <img src={ltts_logo} alt='mainImages' className="imageClass" height='10%' width='10%' style={{ margin:'auto', paddingTop:'5%'}} />
+                    {isMobile 
+                     ?   <Row>
+                            <Col><img src={sap_logo} alt='mainImages' className="imageClass" height='30%' width='30%' style={{ margin: 'auto', paddingTop: '5%' }} /></Col>
+                            <Col><img src={pwc_logo} alt='mainImages' className="imageClass" height='30%' width='30%' style={{ margin:'auto', paddingTop:'5%'}} /></Col>
+                            <Col><img src={ltts_logo} alt='mainImages' className="imageClass" height='30%' width='30%' style={{ margin:'auto', paddingTop:'5%'}} /></Col>
+                        </Row>
+                     :   <div>
+                        <img src={sap_logo} alt='mainImages' className="imageClass" height='10%' width='10%' style={{ margin:'auto', paddingTop:'5%'}} />
+                        <img src={pwc_logo} alt='mainImages' className="imageClass" height='10%' width='10%' style={{ margin:'auto', paddingTop:'5%'}} />
+                        <img src={ltts_logo} alt='mainImages' className="imageClass" height='10%' width='10%' style={{ margin:'auto', paddingTop:'5%'}} />
+                    </div>
+                    }
+
                 </Col>
             </Row>
         </Container>

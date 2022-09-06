@@ -24,12 +24,21 @@ function Dashboard() {
                     {/* <Router> */}
                         <div className="App">
                             <Switch>
-                                <Route path="/" exact component={ Home } />
+                                
                                 <Route path="/WorkExp" exact component={ WorkExp } />
                                 <Route path="/TempDrawer" exact component={ TemporaryDrawer } />
                                 <Route path="/Skills" exact component={ Skills } />
                                 <Route path="/Projects" exact component={ Projects } />
                                 <Route path="/Contacts" exact component={ Contacts } />
+                                <Route path="/">
+                                    <>
+                                    <Home />
+                                    <WorkExp />
+                                    <Skills />
+                                    <Projects />
+                                    <Contacts/>
+                                    </>
+                                </Route>
                                 <Route path="*" component={ PageNotFound } />
                             </Switch>
                         </div>

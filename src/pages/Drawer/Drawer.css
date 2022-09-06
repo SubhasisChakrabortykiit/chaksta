@@ -45,7 +45,7 @@ ul {
     font-size: 15px;
 }
 .drawer-icon {
-    position: absolute;
+    position: fixed;
 
 }
 .drawer-react-fragment {
